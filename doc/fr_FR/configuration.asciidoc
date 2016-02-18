@@ -220,7 +220,7 @@ Exemple :
 * Dans la ligne : /usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py VOL #slider# , l'argument "#slider#" est récupéré de cette façon argv[2]. Au moment de l'exécution du script par jeedom, il remplacera automatiquement #slider# par la valeur (numérique) du slider. cf : Google pour plus de détails sur la récupération de paramètres en Python.
 * Plus fort : Potentiellement, toutes les variables accessibles par Jeedom sont exploitables par le plugin script :
 ** Vous voulez récupérer la valeur de la température de la cuisine pour l'historiser en dehors de Jeedom ?
-** Passer #[CUISINE][CUISINE][Température]# comme paramètre au script et Jeedom le remplacera par la valeur lue lors de l'envoi.
+** Passer \#[CUISINE][CUISINE][Température]# comme paramètre au script et Jeedom le remplacera par la valeur lue lors de l'envoi.
 
 Préconisation pour tester les paramètres dans le script php :
 
